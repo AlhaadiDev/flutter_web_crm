@@ -8,14 +8,8 @@ This is a simple **Flutter Web application for CRM (Customer Relationship Manage
 
 Make sure Flutter is configured to support web:
 
-```bash
-flutter config --enable-web
-Then, build the project for release:
-
-bash
-Copy
-Edit
-flutter build web --release --no-tree-shake-icons
+1. flutter config --enable-web
+2. flutter build web --release --no-tree-shake-icons
 🛠 This disables icon tree shaking to avoid font subsetting issues.
 
 After a successful build, your compiled app will be located in the build/web directory.
